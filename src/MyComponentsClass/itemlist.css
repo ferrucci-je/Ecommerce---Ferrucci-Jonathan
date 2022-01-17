@@ -1,0 +1,20 @@
+section  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.itemList {
+    font-weight: 500;
+    font-size: 0.7rem;
+    border-style: solid;
+    border-width: 1.5px;
+    margin: 1em;
+    padding: 0.6em;
+    border-radius: 10px;    
+}
+
+.itemList span {
+    width: 50%;
+}
