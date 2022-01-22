@@ -1,5 +1,5 @@
 import React from 'react'
-import '../MyComponentsClass/itemlist.css';
+import './itemlist.css';
 
 
 export const ItemList = ({product, description, price}) => {
@@ -11,7 +11,9 @@ export const ItemList = ({product, description, price}) => {
             <h4>Valor: {price} </h4>
             <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident animi alias blanditiis illum explicabo consectetur?</span>
         </div>
-    )
+        
+    )    
 }
+
 
 export default ItemList

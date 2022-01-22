@@ -1,4 +1,8 @@
+@import './Components/cartwidget.css';
 @import url('./navbar.css');
+@import url('./Components/itemcount.css');
+
+
 
 * {
   padding: 0;

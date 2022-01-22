@@ -1,0 +1,26 @@
+.Counter {
+    background-color: rgb(212, 234, 242);
+    margin: 1em;
+    padding: 0.3em;
+}
+
+.Counter span {
+    margin: 1em;
+    
+}
+
+h3 {
+    display: block;
+    margin: 0.8em auto;
+}
+
+button {
+    display: block;
+    padding: 0.5em;
+    margin: 1em auto;
+    background-color:  rgba(194, 194, 194, 0.953);
+    border-style: none;
+    font-weight: bold;
+    color: white; 
+    font-size: 12px;
+}
