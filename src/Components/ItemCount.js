@@ -6,19 +6,16 @@
     const stock = 20;
 
     const restarClic = () => {
-        if (counter > 0) {
-            setCounter(counter -1)
-        } else {
-            setCounter(counter === 0)
-        }
-    };
+        if (counter === 0) return;
+        setCounter(counter - 1);
+        };
 
     const sumarClic = () => {
-        if (counter <= 0 || counter < stock) {
-            setCounter(counter + 1)
-        } else {
-            setCounter('Sin Stock')
-        }
+        if (counter === stock) {
+            alert("Sin Stock");
+            return;
+          }
+          setCounter(counter + 1);
     };
 
      return (
